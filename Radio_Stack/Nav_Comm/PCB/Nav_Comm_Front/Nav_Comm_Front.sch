@@ -453,8 +453,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 5200 5000 5200
 Wire Wire Line
-	5000 5200 5000 5550
-Wire Wire Line
 	5000 5550 5450 5550
 Wire Wire Line
 	5450 5550 5450 5650
@@ -767,4 +765,11 @@ Text Label 1250 5300 0    50   ~ 0
 D2_SEG_E
 Text Label 1250 5400 0    50   ~ 0
 D2_DIG_0
+Wire Wire Line
+	5100 5400 5000 5400
+Connection ~ 5000 5400
+Wire Wire Line
+	5000 5400 5000 5550
+Wire Wire Line
+	5000 5200 5000 5400
 $EndSCHEMATC
