@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 2352AS)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/2352AS.pretty)(options "")(descr ""))
+  (lib (name EC11EBB24C03)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/EC11EBB24C03.pretty)(options "")(descr ""))
+  (lib (name GL55)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/GL55.pretty)(options "")(descr ""))
+)

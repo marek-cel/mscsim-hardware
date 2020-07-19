@@ -1,0 +1,411 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Nav-Comm - Front"
+Date "2020-07-19"
+Rev "1"
+Comp "marekcel.pl"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2352AS:2352AS D11
+U 1 1 5F12B0CD
+P 4500 1400
+F 0 "D11" H 4500 1975 50  0000 C CNN
+F 1 "2352AS" H 4500 1884 50  0000 C CNN
+F 2 "2352AS:2352AS" H 4500 1950 50  0001 C CNN
+F 3 "" H 4500 1950 50  0001 C CNN
+	1    4500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2352AS:2352AS D21
+U 1 1 5F12B512
+P 6450 1400
+F 0 "D21" H 6450 1975 50  0000 C CNN
+F 1 "2352AS" H 6450 1884 50  0000 C CNN
+F 2 "2352AS:2352AS" H 6450 1950 50  0001 C CNN
+F 3 "" H 6450 1950 50  0001 C CNN
+	1    6450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2352AS:2352AS D22
+U 1 1 5F12BB24
+P 6450 2450
+F 0 "D22" H 6450 3025 50  0000 C CNN
+F 1 "2352AS" H 6450 2934 50  0000 C CNN
+F 2 "2352AS:2352AS" H 6450 3000 50  0001 C CNN
+F 3 "" H 6450 3000 50  0001 C CNN
+	1    6450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2352AS:2352AS D12
+U 1 1 5F12C63F
+P 4500 2450
+F 0 "D12" H 4500 3025 50  0000 C CNN
+F 1 "2352AS" H 4500 2934 50  0000 C CNN
+F 2 "2352AS:2352AS" H 4500 3000 50  0001 C CNN
+F 3 "" H 4500 3000 50  0001 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5F133540
+P 10600 6150
+F 0 "#PWR09" H 10600 6000 50  0001 C CNN
+F 1 "VCC" H 10615 6323 50  0000 C CNN
+F 2 "" H 10600 6150 50  0001 C CNN
+F 3 "" H 10600 6150 50  0001 C CNN
+	1    10600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5F133CC7
+P 10950 6250
+F 0 "#PWR010" H 10950 6000 50  0001 C CNN
+F 1 "GND" H 10955 6077 50  0000 C CNN
+F 2 "" H 10950 6250 50  0001 C CNN
+F 3 "" H 10950 6250 50  0001 C CNN
+	1    10950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5F1349DF
+P 10950 6150
+F 0 "#FLG02" H 10950 6225 50  0001 C CNN
+F 1 "PWR_FLAG" H 10950 6323 50  0000 C CNN
+F 2 "" H 10950 6150 50  0001 C CNN
+F 3 "~" H 10950 6150 50  0001 C CNN
+	1    10950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5F135838
+P 10600 6250
+F 0 "#FLG01" H 10600 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 10600 6423 50  0000 C CNN
+F 2 "" H 10600 6250 50  0001 C CNN
+F 3 "~" H 10600 6250 50  0001 C CNN
+	1    10600 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10600 6150 10600 6250
+Wire Wire Line
+	10950 6150 10950 6250
+$Comp
+L power:GND #PWR08
+U 1 1 5F149334
+P 9050 6250
+F 0 "#PWR08" H 9050 6000 50  0001 C CNN
+F 1 "GND" H 9055 6077 50  0000 C CNN
+F 2 "" H 9050 6250 50  0001 C CNN
+F 3 "" H 9050 6250 50  0001 C CNN
+	1    9050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC11EBB24C03:EC11EBB24C03 SW2
+U 1 1 5F139904
+P 4950 4450
+F 0 "SW2" H 4950 4875 50  0000 C CNN
+F 1 "Encoder" H 4950 4784 50  0000 C CNN
+F 2 "EC11EBB24C03:EC11EBB24C03" H 5100 4800 50  0001 C CNN
+F 3 "" H 5100 4800 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1050 5000 1050
+Wire Wire Line
+	4900 1150 5000 1150
+Wire Wire Line
+	4900 1250 5000 1250
+Wire Wire Line
+	4900 1350 5000 1350
+Wire Wire Line
+	4900 1450 5000 1450
+Wire Wire Line
+	4900 1550 5000 1550
+Wire Wire Line
+	4900 1650 5000 1650
+Wire Wire Line
+	4900 1750 5000 1750
+Wire Wire Line
+	4100 1050 4000 1050
+Wire Wire Line
+	4100 1150 4000 1150
+Wire Wire Line
+	4100 1250 4000 1250
+Wire Wire Line
+	4100 2100 4000 2100
+Wire Wire Line
+	4100 2200 4000 2200
+Wire Wire Line
+	4100 2300 4000 2300
+Wire Wire Line
+	4900 2100 5000 2100
+Wire Wire Line
+	4900 2200 5000 2200
+Wire Wire Line
+	4900 2300 5000 2300
+Wire Wire Line
+	4900 2400 5000 2400
+Wire Wire Line
+	4900 2500 5000 2500
+Wire Wire Line
+	4900 2600 5000 2600
+Wire Wire Line
+	4900 2700 5000 2700
+Wire Wire Line
+	4900 2800 5000 2800
+Text Label 5000 1050 0    50   ~ 0
+D1_SEG_A
+Text Label 5000 1150 0    50   ~ 0
+D1_SEG_B
+Text Label 5000 1250 0    50   ~ 0
+D1_SEG_C
+Text Label 5000 1350 0    50   ~ 0
+D1_SEG_D
+Text Label 5000 1450 0    50   ~ 0
+D1_SEG_E
+Text Label 5000 1550 0    50   ~ 0
+D1_SEG_F
+Text Label 5000 1650 0    50   ~ 0
+D1_SEG_G
+Text Label 5000 1750 0    50   ~ 0
+D1_DP
+Text Label 4000 1050 2    50   ~ 0
+D1_DIG_0
+Text Label 4000 1150 2    50   ~ 0
+D1_DIG_1
+Text Label 4000 1250 2    50   ~ 0
+D1_DIG_2
+Text Notes 3650 850  0    50   ~ 0
+ACTIVE
+Text Notes 5600 850  0    50   ~ 0
+STANDBY
+Text Label 5000 2100 0    50   ~ 0
+D1_SEG_A
+Text Label 5000 2200 0    50   ~ 0
+D1_SEG_B
+Text Label 5000 2300 0    50   ~ 0
+D1_SEG_C
+Text Label 5000 2400 0    50   ~ 0
+D1_SEG_D
+Text Label 5000 2500 0    50   ~ 0
+D1_SEG_E
+Text Label 5000 2600 0    50   ~ 0
+D1_SEG_F
+Text Label 5000 2700 0    50   ~ 0
+D1_SEG_G
+Text Label 5000 2800 0    50   ~ 0
+D1_DP
+Text Label 4000 2100 2    50   ~ 0
+D1_DIG_3
+Text Label 4000 2200 2    50   ~ 0
+D1_DIG_4
+Text Label 4000 2300 2    50   ~ 0
+D1_DIG_5
+Wire Wire Line
+	6850 1050 6950 1050
+Wire Wire Line
+	6850 1150 6950 1150
+Wire Wire Line
+	6850 1250 6950 1250
+Wire Wire Line
+	6850 1350 6950 1350
+Wire Wire Line
+	6850 1450 6950 1450
+Wire Wire Line
+	6850 1550 6950 1550
+Wire Wire Line
+	6850 1650 6950 1650
+Wire Wire Line
+	6850 1750 6950 1750
+Wire Wire Line
+	6050 1050 5950 1050
+Wire Wire Line
+	6050 1150 5950 1150
+Wire Wire Line
+	6050 1250 5950 1250
+Wire Wire Line
+	6850 2100 6950 2100
+Wire Wire Line
+	6850 2200 6950 2200
+Wire Wire Line
+	6850 2300 6950 2300
+Wire Wire Line
+	6850 2400 6950 2400
+Wire Wire Line
+	6850 2500 6950 2500
+Wire Wire Line
+	6850 2600 6950 2600
+Wire Wire Line
+	6850 2700 6950 2700
+Wire Wire Line
+	6850 2800 6950 2800
+Wire Wire Line
+	6050 2100 5950 2100
+Wire Wire Line
+	6050 2200 5950 2200
+Wire Wire Line
+	6050 2300 5950 2300
+Text Label 6950 1050 0    50   ~ 0
+D2_SEG_A
+Text Label 6950 1150 0    50   ~ 0
+D2_SEG_B
+Text Label 6950 1250 0    50   ~ 0
+D2_SEG_C
+Text Label 6950 1350 0    50   ~ 0
+D2_SEG_D
+Text Label 6950 1450 0    50   ~ 0
+D2_SEG_E
+Text Label 6950 1550 0    50   ~ 0
+D2_SEG_F
+Text Label 6950 1650 0    50   ~ 0
+D2_SEG_G
+Text Label 6950 1750 0    50   ~ 0
+D2_DP
+Text Label 5950 1050 2    50   ~ 0
+D2_DIG_0
+Text Label 5950 1150 2    50   ~ 0
+D2_DIG_1
+Text Label 5950 1250 2    50   ~ 0
+D2_DIG_2
+Text Label 6950 2100 0    50   ~ 0
+D2_SEG_A
+Text Label 6950 2200 0    50   ~ 0
+D2_SEG_B
+Text Label 6950 2300 0    50   ~ 0
+D2_SEG_C
+Text Label 6950 2400 0    50   ~ 0
+D2_SEG_D
+Text Label 6950 2500 0    50   ~ 0
+D2_SEG_E
+Text Label 6950 2600 0    50   ~ 0
+D2_SEG_F
+Text Label 6950 2700 0    50   ~ 0
+D2_SEG_G
+Text Label 6950 2800 0    50   ~ 0
+D2_DP
+Text Label 5950 2100 2    50   ~ 0
+D2_DIG_3
+Text Label 5950 2200 2    50   ~ 0
+D2_DIG_4
+Text Label 5950 2300 2    50   ~ 0
+D2_DIG_5
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F2A57ED
+P 6050 4500
+F 0 "SW1" V 6096 4452 50  0000 R CNN
+F 1 "Switch" V 6005 4452 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 6050 4700 50  0001 C CNN
+F 3 "~" H 6050 4700 50  0001 C CNN
+	1    6050 4500
+	0    1    -1   0   
+$EndComp
+Wire Notes Line
+	3600 2950 3600 750 
+Wire Notes Line
+	7350 750  7350 2950
+Wire Notes Line
+	5550 2950 5550 750 
+$Comp
+L Device:R_PHOTO R10
+U 1 1 5F5864B4
+P 6850 4500
+F 0 "R10" H 6920 4546 50  0000 L CNN
+F 1 "R_PHOTO" H 6920 4455 50  0000 L CNN
+F 2 "LDR:GL55" V 6900 4250 50  0001 L CNN
+F 3 "~" H 6850 4450 50  0001 C CNN
+	1    6850 4500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7350 2950 5550 2950
+Wire Notes Line
+	7350 750  5550 750 
+Wire Notes Line
+	3600 2950 5400 2950
+Wire Notes Line
+	5400 750  5400 2950
+Wire Notes Line
+	3600 750  5400 750 
+Connection ~ 9050 5750
+Wire Wire Line
+	9050 5550 9250 5550
+Wire Wire Line
+	9050 5750 9050 5550
+Connection ~ 9050 5950
+Wire Wire Line
+	9050 5750 9250 5750
+Wire Wire Line
+	9050 5950 9050 5750
+Connection ~ 9050 6150
+Wire Wire Line
+	9050 5950 9250 5950
+Wire Wire Line
+	9050 6150 9050 5950
+Wire Wire Line
+	9050 6150 9250 6150
+Wire Wire Line
+	9050 6250 9050 6150
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F149094
+P 9350 6150
+F 0 "H4" V 9304 6300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9395 6300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 9350 6150 50  0001 C CNN
+F 3 "~" H 9350 6150 50  0001 C CNN
+	1    9350 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F148DCE
+P 9350 5950
+F 0 "H3" V 9304 6100 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9395 6100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 9350 5950 50  0001 C CNN
+F 3 "~" H 9350 5950 50  0001 C CNN
+	1    9350 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F148B86
+P 9350 5750
+F 0 "H2" V 9304 5900 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9395 5900 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 9350 5750 50  0001 C CNN
+F 3 "~" H 9350 5750 50  0001 C CNN
+	1    9350 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F14819F
+P 9350 5550
+F 0 "H1" V 9304 5700 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9395 5700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 9350 5550 50  0001 C CNN
+F 3 "~" H 9350 5550 50  0001 C CNN
+	1    9350 5550
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

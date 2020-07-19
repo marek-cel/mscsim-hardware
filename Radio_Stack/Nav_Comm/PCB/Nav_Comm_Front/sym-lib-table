@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 2352AS)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/2352AS.lib)(options "")(descr ""))
+  (lib (name EC11EBB24C03)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/EC11EBB24C03.lib)(options "")(descr ""))
+)
